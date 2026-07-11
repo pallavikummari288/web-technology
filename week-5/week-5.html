@@ -1,0 +1,59 @@
+<html>
+<body bgcolor="pink" align="center">
+    <h1 align="center">EMAIL REGISTRATION</h1>   
+    <form>
+        <input type="text" placeholder=" username" id="un"><br>
+        <input type="email" placeholder=" email" id="e"><br>
+        <input type="number" placeholder=" mobile" id="ph"><br>
+        <input type="button" value="submit" onclick="return validate()">
+    </form>
+    <script>
+        function validate()
+        {
+        var un=document.getElementById("un");
+        var em=document.getElementById("e");
+        var m=document.getElementById("ph");
+        var uname=un.value;
+        var email=em.value;
+        var mobile=m.value;
+        var unre=/^[a-zA-Z]+[0-9a-zA-Z._]*$/;
+        var ere=/^[a-zA-Z]+([\._]?\w+)*@\w+([\._]?\w+)*(\.\w{2,3})+$/;
+        var mre=/^[6-9][0-9]{9}$/;
+        if(unre.test(uname))
+        {
+            if(ere.test(email))
+            {
+                if(mre.test(mobile))
+                {
+                    alert("registration successfully");
+                    return true;
+                }
+                else{
+                    return error(m);
+                }
+                   }
+                   else{
+                    return error(em);
+                }
+            }
+            else{
+                return error(un);
+            }
+        }
+            function error(ele)
+            {
+                alert("invalid");
+                ele.style.border="3px solid red";
+                ele.value="";
+                ele.placeholder="invalid";
+                ele.focus();
+                return false;
+            }
+       
+
+    </script>
+            <h3 align="left"> k.pallavi</h3>
+        <h3 align="left"> 24881A1238</h3>
+    </body>
+    
+</html>
