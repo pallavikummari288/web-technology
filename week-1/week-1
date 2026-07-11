@@ -1,0 +1,36 @@
+<html>
+    <body bgcolor="pink" align="center">
+        <div style="position:fixed; down:500px; left:1000px;">
+    <b>Name:</b>k.pallavi <br>
+    <b>Roll No:</b>24881A1238
+</div>
+
+        <h2>MOBILE STORE</h2>
+       <table border="2" ALIGN="CENTER">
+        <tr><td>S.NO</td>
+            <td>PRODUCT</td>
+            <td>IMAGE</td>
+        <td>PRODUCT INFO</td>
+        <td>FEATURES</td>
+        <td>VIDEOS</td></tr>
+<tr><td>1</td>
+            <td>SAMSUNG GALAXY</td>
+            <td><IMG SRC="sam.jpeg" HEIGHT="100" WIDTH="100"/></td>
+        <td><ol><li>L6GB RAM</li>
+        <LI>256 PXL</LI>
+    <LI>128GB STORAGE</LI></ol></td>
+<td><A HREF="SAM.HTML">ABOUT THE PRODUCT</A></td>
+<td><A HREF="https://www.youtube.com/samsung">CLICK HERE TO WATCH ABOUT PRODUCT</A></td></tr>
+
+<tr><td>2</td>
+            <td>IPHONE14</td>
+            <td><IMG SRC="iphn.jpeg" HEIGHT="100" WIDTH="100"/></td>
+        <td><ol><li>6GB RAM</li>
+        <LI>256 PXL</LI>
+    <LI>128GB STORAGE</LI></ol></td>
+<td><A HREF="iphn.html">ABOUT THE PRODUCT</A></td>
+<td><A HREF="https://www.youtube.com/watch?v=50k7jzjvBhM">CLICK HERE TO WATCH ABOUT PRODUCT</A></td></tr>
+
+    </table>
+    </body>
+</html>
